@@ -21,16 +21,25 @@ function sumaImpares(array) {
     return suma;  
   }
 let resultado = sumaImpares(numeros);
-console.log(resultado)
-
-*/
-2)DADO EL SIGUIENTE ARREGLO...
-*/
+/*console.log(resultado)*/
+//--------------------------------------------------------------------------------------//
+/*2)DADO EL SIGUIENTE ARREGLO...*/
 const arrayNumeros = [ 7,16,32,27,45,27,51,12,19,21]
 /*
 CREAR UNO NUEVO EL CUAL CONTENDRA LOS NUMEROS DE ESTE ARREGLO
 PERO SOLO LOS NUMEROS QUE SEAN MAYORES QUE 15 Y MENORES O IGUALES QUE 30
 */
 console.log ("este es el ejercicio 2")
- 
-/*
+
+function intervalo (array) {
+    let nuevoarray = [];
+    for (let i=0; i < array.length; i++) {
+          if(array[i]>15 && array[i]<=30){
+            nuevoarray.push(array[i])
+        }
+    }
+    return nuevoarray;  
+  }
+let resultado2 = intervalo(arrayNumeros);
+console.log(resultado2)
+//--------------------------------------------------------------------------------------//

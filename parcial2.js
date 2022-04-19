@@ -51,3 +51,5 @@ function siguienteCursada (clase){
     return clase;
 }
 console.log (siguienteCursada)
+
+
